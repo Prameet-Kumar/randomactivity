@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(./images/bedroom.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button{
+    user-select: nones;
+    margin: 3%;
+    padding: 1%;
+    background-color: rgb(86, 110, 163);
+    border: none;
+    border-radius: 5px;
+}
+.screen, .heading{
+    border: 2px;
+    border-radius: 5px;
+    border-color: aliceblue;
+    /* background-color: rgb(43, 10, 154); */
+    padding: 5px;
+    width:240px;
+    text-align: center;
+    backdrop-filter: blur(20px);
+}
